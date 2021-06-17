@@ -1,0 +1,21 @@
+Variables:
+    Son como 'cajas' con un nombre escrito en ellas. Puedes poner algo en esas cajas y cuando quieres encontrar ese 'algo' puedes hacerlo usando el nombre que le diste a esa 'caja'.
+
+Strings:
+    Un 'string' es un conjunto de letras, palabras, numeros y símbolos que escribes entre comillas. Es como si fuera una oración.  Un 'string' vacío también vale (ninguna letra, número ni símbolo, por ejemplo "").
+
+Función:
+    Es un conjunto de instrucciones a las que guardas con un nombre, para no repetirte.  Para ejecutar estas instrucciones, llamas a la función por su nombre sequido de paréntesis '()'.
+
+    Argumentos:
+        Son variables (esas 'cajas') que se usan sólo dentro de la función.  Las defines dentro de los paréntesis al definir o declarar la función.
+
+    Return:
+        Una función siempre devuelve (o retorna) algo.  Puedes usar la palabra clave 'return' para indicar qué devuelve tu función.  En javascript, una función sin una instrucción 'return' devolverá un valor 'sin definir' (undefined).
+
+Declaraciones 'if':
+    Puedes decirle al intérprete qué debe hacer si algo es cierto mediante la declaración 'if'.  También puedes decirle qué debe hacer en caso contrario, usando 'else', y puedes probar más condiciones con varios 'if ... else'.  Por ejemplo: "if ( condición es verdadera ) { haz esto } else if ( otra condición ) { haz aquello ) else { haz esta otra cosa }
+
+Valores booleanos:
+    Los valores booleanos son un tipo de dato que sólo pueden tener uno de dos valores: verdadero (true) o falso (false).
+
