@@ -1,0 +1,2 @@
+Arreglos:
+    Los arreglos son como colecciones o listas de cosas iguales o diferentes. Puedes acceder a los elementos del arreglo por su índice, y puedes añadir o quitar elementos con funciones propias del arreglo como 'pop()' y 'push()' (quita o añade al final) o 'shift()' y 'unshift()' (quita o añade al principio).
