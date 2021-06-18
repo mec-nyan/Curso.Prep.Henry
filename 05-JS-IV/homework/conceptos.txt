@@ -1,0 +1,10 @@
+Objetos:
+    Son elementos agrupados parecidos a los arreglos pero, en lugar de índices numéricos llevan nombre.  De esta forma los elementos de un objeto forman pares 'Propiedad: Valor'.
+
+    Las propiedades son elementos de un objeto a los que puedes acceder mediante el nombre de la propiedad.
+
+    Los métodos son funciones que pertenecen a un objeto.
+
+    Para recorrer los elementos de un objeto, ya que estos no tienen un índice numérico, JS tiene un bucle 'for' especial que recorre los elementos del objeto: el bucle 'for (element in object)'.
+
+    Podemos acceder a las propiedades y métodos de un objeto con dos notaciones diferentes: notación de punto (objeto.propiedad) y de corchetes (objeto['propiedad']). La ventaja de la notación de punto es que es más sencilla y directa y lleva menos tipeo, mientras que la notación de corchetes nos permite usar variables para acceder al elemento.
