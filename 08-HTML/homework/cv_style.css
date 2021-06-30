@@ -1,0 +1,261 @@
+@font-face {
+    font-family: font_ubuntu;
+    src: url('./fonts/Ubuntu-R.ttf');
+}
+@font-face {
+    font-family: font_cantarell;
+    src: url('./fonts/Cantarell-Regular.otf');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: font_cantarell, 'Cantarell', font_ubuntu, 'Ubuntu', sans-serif;
+}
+
+body {
+    min-width: 1000px;
+    background-color: gainsboro;
+    color: #1c1c1c;
+    scroll-behavior: smooth;
+}
+
+nav {
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: gainsboro;
+    top: 0px;
+    left: 0px;
+}
+
+nav a  {
+    float: left;
+    text-decoration: none;
+    color: #3f3f3f;
+    padding: 10px 10px;
+    font-family: font_cantarell, 'Cantarell', font_ubuntu, 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 14px;
+    border-bottom: 2px solid gainsboro;
+    transition-property: border;
+    transition-duration: 400ms;
+}
+
+nav a:hover {
+    border-bottom-color: #5AA6FF;
+}
+
+.navright {
+    float: right;
+    padding: 10px 20px;
+    border-radius: 0px;
+}
+
+.navsep {
+    /* border-right: 1px solid #7f7f7f; */
+}
+
+.lighter {
+    color: #8f8f8f;
+}
+/* nav a::first-letter { color: #007f7f; } */
+
+
+#ball {
+    float: left;
+    width: 14px;
+    height: 14px;
+    background-color: #5AA6FF;
+    border-radius: 50%;
+    margin: 0px 10px 0px 0px;
+}
+
+#profile {
+    float: none;
+    width: 1000px;
+    min-height: 400px;
+    height: 60vh;
+    margin: 0px auto;
+    overflow: visible;
+    padding: 20vh 0px;
+    scroll-behavior: smooth;
+}
+
+#foto {
+    float: left;
+    width: 250px;
+    border-radius: 2px;
+    border-width: 20px 10px; /* BE CAREFUL! This will add to the total size of 'foto' */
+    border-color: white;
+    border-style: solid;
+    transform: rotate(-5deg);
+    margin: 0px;
+    box-shadow: 3px 3px 3px #7f7f7f;
+}
+ 
+#sidetext {
+    float: left;
+    width: 458px;
+    margin: 0px;
+    padding: 10px 20px;
+}
+
+#sidetext h1 {
+    font-family: font_cantarell, 'Cantarell', font_ubuntu, sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: #1f1f1f;
+}
+#sidetext h2 {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#sidetext h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#sidetext p {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#alt_menu {
+    float: left;
+    width: 228px;
+    padding: 0px;
+    margin: 0px;
+}
+#alt_menu a {
+    display: block;
+    margin: 5px 0px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+    text-decoration: none;
+    color: white;
+    transition-property: background, border;
+    transition-duration: 400ms;
+}
+#alt_menu a {
+    width: 120px;
+    height: 120px;
+    background-color: #3B93FF;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    left: 0px;
+}
+#alt_menu a:first-of-type {
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    background-color: #006DE9;
+    position: relative;
+    left: 100px;
+}
+#alt_menu a:last-of-type {
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    background-color: #75BAFF;
+    position: relative;
+    left: 100px;
+}
+#alt_menu a:hover {
+    background-color: gainsboro;
+    border-color: #3B93FF;
+    color: black;
+}
+#sep {
+    float: none;
+    width: 1000px;
+    margin: 0 auto;
+    height: 1px;
+    background-image: linear-gradient(to left, #1c1c1c00, #1c1c1cff, #1c1c1c00);
+}
+
+#resume, #contact, #about, #henry {
+    float: none;
+    width: 1000px;
+    min-height: 100vh;
+    margin: 0px auto;
+    padding-top: 50px;
+    scroll-behavior: smooth;
+}
+#resume h2, #contact h2, #about h2, #henry  h2 {
+    font-size: 40px;
+    margin: 30px auto;
+    padding: 20px;
+}
+#resume table {
+    border-collapse: collapse;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+#resume tr {
+    margin: 0px;
+}
+#resume td {
+    margin: 0px;
+    vertical-align: top;
+    padding: 20px;
+}
+#resume td:first-child {
+    width: 400px;
+    font-size: 24px;
+}
+#about p, #about h3, #henry p, #henry h3 {
+    padding: 20px;
+}
+#contact table {
+    list-style: none;
+    border-collapse: collapse;
+}
+#contact td {
+    padding: 20px;
+}
+#contact small {
+    color: #7f7f7f;
+    width: 1000px;
+    margin: 0 auto;
+    font-style: italic;
+    display: inline-block;
+    padding: 20px 20px 40px;
+}
+#topBtn {
+    text-decoration: none;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: 1px solid gainsboro;
+    outline: none;
+    color: white;
+    background-color: #5AA6FF;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    transition-property: background;
+    transition-duration: 400ms;
+}
+#topBtn:hover {
+    border: 1px solid #5AA6FF;
+    color: #5AA6FF;
+    background-color: gainsboro;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    color: #7f7f7f;
+    font-size: 14px;
+}
